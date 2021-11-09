@@ -1,29 +1,29 @@
 architecture: arm64
 battery:
-  capacity: 3400
+  capacity: 5000
   removable: false
   tech: Li-Po
 bluetooth:
   profiles:
-  - A2DP + aptX HD
-  spec: '5'
+  - A2DP + LE
+  spec: '4.2'
 cameras:
 - flash: LED
-  info: 12 MP
+  info: 12.2 MP
 - flash: LED
-  info: 12 MP
+  info: 1.9 MP
 - flash: ''
-  info: 5 MP
-codename: dipper
-cpu: Kryo 385
+  info: 8 MP
+codename: Xiaomi Olive
+cpu: Qualcomm Snapdragon 439
 cpu_cores: '8'
-cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
-depth: 7.6 mm (0.29 in)
+cpu_freq: 4 x 1.95 GHz + 4 x 1.45 GHz
+depth: 9.4 mm (0.37 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
-gpu: Adreno 630
-height: 154.9 mm (6.10 in)
+gpu: Adreno 505
+height: 156.5 mm (6.16 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Giammarco Senatore
@@ -37,29 +37,26 @@ peripherals:
 - Dual SIM
 - Fingerprint reader
 - Accelerometer
-- Barometer
 - Gyroscope
-- Hall effect sensor
 - Light sensor
 - Proximity sensor
 - Compass
-- Dual-frequency GNSS
 - IR camera
-ram: 6/8 GB LPDDR4X
+ram: 4 GB LPDDR3 SDRAM
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Mi 8" logo appears on the screen, then release.
-release: 2018-07
-screen: 157.73 mm (6.21 in)
-screen_ppi: '402'
-screen_res: 1080x2248
-screen_tech: AMOLED
-sdcard: up to 256 GB (hybrid SIM slot)
+release: 2019-10
+screen: 157.91 mm (6.22 in)
+screen_ppi: '271'
+screen_res: 720×1520
+screen_tech: IPS TFT
+sdcard: up to 128 GB (hybrid SIM slot)
 soc: Qualcomm SDM845 Snapdragon 845
-storage: 64/128/256 GB UFS2.1
+storage: 64 GB eMMC 5.1
 uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven
 - eleven_plus
-width: 74.8 mm (2.94 in)
-wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
+width: 75.4 mm (2.97 in)
+wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
